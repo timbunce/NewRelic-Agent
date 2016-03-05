@@ -124,7 +124,7 @@ Returns `0` on success, else negative warning code or error code.
 
 ## set\_transaction\_category
 
-Sets the transaction's category name (.e.g `Uri` in "WebTransaction/Uri/<txn\_name>").
+Sets the transaction's category name (.e.g `Uri` in "WebTransaction/Uri/&lt;txn\_name>").
 
 Returns `0` on success, else negative warning code or error code.
 
@@ -313,12 +313,13 @@ feature.
 
 # AUTHOR
 
-Ali Anari <ali@anari.me>
+Ali Anari &lt;ali@anari.me>
 
 # CONTRIBUTORS
 
-- Slobodan Mišković <slobodan@miskovic.ca>
-- Tim Bunce <tim@tigerlms.com>
+- Slobodan Mišković &lt;slobodan@miskovic.ca>
+- Tatsuhiko Miyagawa &lt;miyagawa@bulknews.net>
+- Tim Bunce &lt;tim@tigerlms.com>
 
 # COPYRIGHT AND LICENSE
 
