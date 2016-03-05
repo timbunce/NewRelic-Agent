@@ -1,0 +1,252 @@
+==================================================
+Changes from 2015-03-06 00:00:00 +0000 to present.
+==================================================
+
+-------------------------------------------
+version 0.0530 at 2016-03-05 00:19:16 +0000
+-------------------------------------------
+
+  Change: 4bb12c1365d0cdfa181c71011f09af43e7f66cb6
+  Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
+  Date : 2016-03-04 16:19:08 +0000
+
+    add CommitBuild 
+
+  Change: 08a6a8a48d4fe4af71ab27f1d789712aaee3e7c6
+  Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
+  Date : 2016-03-04 16:11:13 +0000
+
+    band-aid fix to require ParseXS in configure 
+
+  Change: be8ccd57046935a283fc2e726324d006a85e1ba8
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-09-03 08:06:35 +0000
+
+    Bumped version 
+
+  Change: 4b6f93857e5d6d4aff1ba0e65abdbefbe8a1ef6a
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-09-03 08:00:50 +0000
+
+    Merge pull request #4 from timbunce/remove-method-signatures
+
+    Remove use of Method::Signatures, add arg checking (saves >35MB) 
+
+  Change: ce5e310dc5ea06354eb2e8038ce171d208c18666
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-09-03 08:00:20 +0000
+
+    Merge pull request #3 from timbunce/fix-01-basic-perl-version
+
+    Fix t/01-basic.t to not assume/require 5.014002 
+
+  Change: af5ea627c1b70d300ea18bbd0be44286834680f1
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-09-03 07:59:56 +0000
+
+    Merge pull request #1 from slobo/patch-1
+
+    Fix test relying being run on per 5.14.2 
+
+  Change: 4cf70d9263220a17ac5c372f1629db69fa506e21
+  Author: Tim Bunce <tim@tigerlms.com>
+  Date : 2015-09-02 13:48:41 +0000
+
+    Remove use of Method::Signatures, add arg checking (saves >35MB on my
+    system) 
+
+  Change: 1b4fa0560a9e7557d1a87e0806b68315888f979d
+  Author: Tim Bunce <tim@tigerlms.com>
+  Date : 2015-09-02 13:38:15 +0000
+
+    Fix t/01-basic.t to not assume/require 5.014002 
+
+  Change: 54bc373216f9df2e0be6fe8b47b8919b2ade43bd
+  Author: Slobodan MiÅ¡koviÄ <slobodan@miskovic.ca>
+  Date : 2015-07-05 09:45:12 +0000
+
+    Fix test relying being run on per 5.14.2
+
+    This made the build fail on anything but. 
+
+-------------------------------------------
+version 0.0510 at 2015-05-12 19:09:22 +0000
+-------------------------------------------
+
+  Change: dae25bb8b19169c8ad362aa61f73fcce15be2969
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-05-12 19:09:22 +0000
+
+    Fixed absolute vs. relative path issue 
+
+-------------------------------------------
+version 0.0503 at 2015-05-07 14:40:10 +0000
+-------------------------------------------
+
+  Change: bd7234b1323c27e1b2b7a7c3cdeb06625053f31c
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-05-07 14:40:10 +0000
+
+    Fixed abstract 
+
+  Change: 1e0e00c297357440edb2bf9f99ee55d783113626
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-05-07 14:33:58 +0000
+
+    Added README file 
+
+-------------------------------------------
+version 0.0501 at 2015-05-07 14:15:32 +0000
+-------------------------------------------
+
+  Change: e46bc306ddbc76e961c07d7906564036145bddce
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-05-07 14:15:32 +0000
+
+    Added CHANGES file 
+
+-------------------------------------------
+version 0.0500 at 2015-04-30 21:58:15 +0000
+-------------------------------------------
+
+  Change: ff30eb072be8f4c3557e5ea1d3c2ae44df03479d
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-30 21:58:15 +0000
+
+    Fixed destructor, embed_collector, and init 
+
+-------------------------------------------
+version 0.0420 at 2015-04-25 15:58:15 +0000
+-------------------------------------------
+
+  Change: c26f40d836304a86c5666cad4ec416015d36b1a7
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-25 15:58:15 +0000
+
+    Fixed manifest .so issue 
+
+-------------------------------------------
+version 0.0410 at 2015-04-25 00:36:19 +0000
+-------------------------------------------
+
+  Change: 5561629e473e763588d029b0841b289a8de2c145
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-25 00:36:19 +0000
+
+    Fixed relative to absolute paths 
+
+  Change: 1b11ec85066f8830b648010090669057a7c516e9
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 20:01:16 +0000
+
+    update travis config 
+
+-----------------------------------------
+version 0.04 at 2015-04-23 01:43:21 +0000
+-----------------------------------------
+
+  Change: 108ebe7d6b7567332fdb428bee79168c7c88b8bb
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-23 01:43:21 +0000
+
+    travis badge 
+
+  Change: af1309e52453e2e1e92315f3c8b84b689148eaf2
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-23 01:41:36 +0000
+
+    Added TravisCI 
+
+  Change: 443c0a54a60de3fa0d3febed81323f14ba83a6f6
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-23 01:38:04 +0000
+
+    Added POD and dist plugins 
+
+  Change: 47afd9f3d4b0b624529468f7f01c0b32b1729bb9
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-23 00:21:38 +0000
+
+    Implemented rest of methods, bumped version 
+
+  Change: 0477675a79f09bb6076a2bff1bebc26eca48837d
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 23:35:48 +0000
+
+    Implemented transaction methods 
+
+  Change: 3ed212f11225696ed75a3fa3d9aeff9bf9cba764
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 23:11:59 +0000
+
+    Bumped version 
+
+  Change: 6b84791e8535769298e195cc70d5642a9aaf3da0
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 23:11:42 +0000
+
+    Lots of methods, fixed linker 
+
+  Change: e7e7200e29461bc7a831a332e609d11afff1c2c4
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 22:07:31 +0000
+
+    Fleshed out configuration system 
+
+  Change: e8d9dd201b97fe93ce315f0953ab62874de211c9
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 18:44:16 +0000
+
+    NR libs and includes 
+
+  Change: 321aaca8fbc69fd0ce40c77ed81321c1fd89f8d8
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-22 03:46:12 +0000
+
+    Fix mangling 
+
+  Change: 2034f5ddd3ea41b3af465b09c77ea6811290a8cc
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-21 23:38:07 +0000
+
+    Compilation ordering 
+
+  Change: b7d54d97d5aa5c40fd9b90f86e9db61661ae92da
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-21 23:05:04 +0000
+
+    XSpp integration 
+
+  Change: a7897418c5924b0b2089309d4b16949f89067f0e
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-21 08:26:55 +0000
+
+    Added NR v0.16.1.0-beta SDK 
+
+  Change: d12c721bdb45504acf91463b2d4767d33d048fb3
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-21 08:17:25 +0000
+
+    cleanup, added perlobject.map 
+
+  Change: 3a8c257c06aca1c7369425476b70a73fd21d5101
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-11 21:32:42 +0000
+
+    Setup XS 
+
+  Change: ab8f8a1c97725759d879ffa26d386ca41d3d5de3
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-11 14:30:13 +0000
+
+    dzil new 
+
+  Change: 3b2dda7b887a9a9e06b3873e0b6fa4151b5582dd
+  Author: Ali Anari <ali@anari.me>
+  Date : 2015-04-11 14:52:15 +0000
+
+    first commit 
+
+================
+End of releases.
+================
