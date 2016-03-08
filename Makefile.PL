@@ -12,13 +12,11 @@ use ExtUtils::MakeMaker;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Perl Agent for NewRelic APM",
   "AUTHOR" => "Ali Anari <ali\@anari.me>",
-  "BUILD_REQUIRES" => {
-    "ExtUtils::XSpp" => "0.18"
-  },
   "CC" => "g++",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
-    "ExtUtils::ParseXS" => "3.30"
+    "ExtUtils::ParseXS" => "3.30",
+    "ExtUtils::XSpp" => "0.18"
   },
   "DISTNAME" => "NewRelic-Agent",
   "INC" => "-I. -Isdk/include",
@@ -58,7 +56,6 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Carp" => 0,
-  "ExtUtils::XSpp" => "0.18",
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,

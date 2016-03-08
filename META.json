@@ -14,15 +14,11 @@
    },
    "name" : "NewRelic-Agent",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::XSpp" : "0.18"
-         }
-      },
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
-            "ExtUtils::ParseXS" : "3.30"
+            "ExtUtils::ParseXS" : "3.30",
+            "ExtUtils::XSpp" : "0.18"
          }
       },
       "develop" : {

@@ -1,10 +1,22 @@
 ==================================================
-Changes from 2015-03-06 00:00:00 +0000 to present.
+Changes from 2015-03-09 00:00:00 +0000 to present.
 ==================================================
 
 -------------------------------------------
-version 0.0530 at 2016-03-05 00:22:42 +0000
+version 0.0530 at 2016-03-08 02:27:25 +0000
 -------------------------------------------
+
+  Change: 3897d1cb9f4919e7288df78fa2b72dbb19aa20a0
+  Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
+  Date : 2016-03-07 18:27:09 +0000
+
+    Move XSpp to configure requires 
+
+  Change: b5965c886179a12a419b369e17df7e29378a793e
+  Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
+  Date : 2016-03-04 16:23:06 +0000
+
+    add MetaJSON 
 
   Change: 4bb12c1365d0cdfa181c71011f09af43e7f66cb6
   Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
