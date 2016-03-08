@@ -44,7 +44,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "blib" => "1.01"
   },
-  "VERSION" => "0.0531",
+  "VERSION" => "0.0532",
   "XSOPT" => "-C++ -hiertype",
   "depend" => {
     "WithAgent.c" => "NewRelic-Agent.xsp"
