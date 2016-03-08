@@ -57,7 +57,7 @@
          "web" : "https://github.com/aanari/NewRelic-Agent"
       }
    },
-   "version" : "0.0530",
+   "version" : "0.0531",
    "x_contributors" : [
       "Slobodan Mišković <slobodan@miskovic.ca>",
       "Tatsuhiko Miyagawa <miyagawa@bulknews.net>",

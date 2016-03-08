@@ -3,8 +3,14 @@ Changes from 2015-03-09 00:00:00 +0000 to present.
 ==================================================
 
 -------------------------------------------
-version 0.0530 at 2016-03-08 02:27:25 +0000
+version 0.0531 at 2016-03-08 02:28:02 +0000
 -------------------------------------------
+
+  Change: 7ceefb338ef975f797f56a5cee9b10a11e149840
+  Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
+  Date : 2016-03-07 18:27:57 +0000
+
+    bump 
 
   Change: 3897d1cb9f4919e7288df78fa2b72dbb19aa20a0
   Author: Tatsuhiko Miyagawa <miyagawa@bulknews.net>
