@@ -319,6 +319,7 @@ Ali Anari &lt;ali@anari.me>
 
 - Slobodan Mišković &lt;slobodan@miskovic.ca>
 - Tatsuhiko Miyagawa &lt;miyagawa@bulknews.net>
+- Tim Bunce &lt;tim.bunce@pobox.com>
 - Tim Bunce &lt;tim@tigerlms.com>
 
 # COPYRIGHT AND LICENSE
