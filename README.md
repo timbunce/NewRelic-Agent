@@ -10,7 +10,7 @@ version 0.0532
 
     use NewRelic::Agent;
 
-    my $agent = NewRelic:Agent->new(
+    my $agent = NewRelic::Agent->new(
         license_key => 'abc123',
         app_name    => 'REST API',
     );
